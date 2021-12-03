@@ -1,0 +1,58 @@
+<!--
+:link   방문한적이 없는 링크
+:visited     방문한적이 있는 링크
+:hover      마우스를 롤오버했을때
+:active     마우스를 클릭했을때
+:focus      포커스 되었을때(input)
+:frist      첫번째 요소
+:last       마지막 요소
+:first-child    1번째 자식
+:last-chile     마지막 자신
+:nth-chile(2n+1)    홀수 번째 자식
+-->
+
+
+
+
+<html>
+    <head>
+        <style>
+            .box{
+                background-color: blue;
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+            .hover-box:hover{
+                background-color: orange;
+            }
+            .focus-input:focus{
+                background: red;
+            }
+            .container > div{
+                margin-top: 20px;
+                width: 100px;
+                height: 100px;
+                float: left;
+                background-color: orange;
+            }
+            .container > div:nth-child(2n+1){
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box hover-box">
+            마우스를 올려보세요
+        </div>
+        <input class="focus-input" type="text" value="클릭해보세요">
+        <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        </div>
+        <div style="clear: both;"></div>
+    </body>
+</html>
