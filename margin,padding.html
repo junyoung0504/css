@@ -1,0 +1,53 @@
+<!--
+margin
+바깥쪽 여백
+
+padding
+안쪽여백
+
+border을 경계 나눕니다
+
+margin: 20px        상하좌우 20px
+margin: 20px 30px       30px상하 20px,좌우
+margin: 30px 10px 20px 50px     위30 오른쪽 10 아래 20 왼쪽 50
+margin: 30px 10px 40px          위 30 죄우 10 아래 40
+-->
+
+
+
+<html>
+    <head>
+        <style>
+            .box-container{
+                display: inline-block;
+                background-color: royalblue;
+                border: 2px solid yellow;
+                margin: 5px 15px;
+            }
+            .box-container div{
+                width: 120px;
+                height: 80px;
+                background-color: yellowgreen;
+                border: violet solid aqua;
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box-container">
+            <div id="box1">m:10 <br>p:0</div>
+        </div>
+        <div class="box-container">
+            <div id="box2">m:5 25<br>p: 0</div>
+        </div>
+        <div class="box-container">
+            <div id="box3">m:0<br>p: 10 30 5</div>
+        </div>
+        <div class="box-container">
+            <div id="box4">m:10<br>p: 10 20</div>
+        </div>
+        <div class="box-container">
+            <div id="box5">m:10<br>p: 10 20</div>
+        </div>
+    </body>
+</html>
