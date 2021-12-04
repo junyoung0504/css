@@ -1,0 +1,27 @@
+color속성
+ 글자의 색상
+ 
+
+font
+글자 속성
+
+font-style 글꼴 스타일
+font-weight   글자 두께
+font-variant  글꼴 변형
+font-size 글자 크기
+line-height 줄간격
+font-familt 글꼴
+
+
+text-align  속성
+텍스트의 정렬 방향
+
+left 왼쪽
+right 오른쪽
+center 중앙
+justify 양쪽 정렬
+
+
+
+
+
